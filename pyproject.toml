@@ -25,6 +25,7 @@ requires-python = ">=3.7"
 [project.optional-dependencies]
 dev = [
     "black",
+    "dls-dodal",
     "mypy",
     "pipdeptree",
     "pre-commit",
