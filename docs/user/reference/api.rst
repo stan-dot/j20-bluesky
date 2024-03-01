@@ -1,14 +1,14 @@
 API
 ===
 
-.. automodule:: python3_pip_skeleton
+.. automodule:: j20_bluesky
 
-    ``python3_pip_skeleton``
+    ``j20_bluesky``
     -----------------------------------
 
-This is the internal API reference for python3_pip_skeleton
+This is the internal API reference for j20_bluesky
 
-.. data:: python3_pip_skeleton.__version__
+.. data:: j20_bluesky.__version__
     :type: str
 
     Version number as calculated by https://github.com/pypa/setuptools_scm

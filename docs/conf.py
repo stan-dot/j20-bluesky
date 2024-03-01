@@ -10,7 +10,7 @@ from subprocess import check_output
 
 import requests
 
-import python3_pip_skeleton
+import j20_bluesky
 
 # -- General configuration ------------------------------------------------
 
@@ -18,7 +18,7 @@ import python3_pip_skeleton
 project = "python3-pip-skeleton"
 
 # The full version, including alpha/beta/rc tags.
-release = python3_pip_skeleton.__version__
+release = j20_bluesky.__version__
 
 # The short X.Y version.
 if "+" in release:

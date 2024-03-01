@@ -25,13 +25,13 @@ introductory code here:
 
 .. code-block:: python
 
-    from python3_pip_skeleton import __version__
+    from j20_bluesky import __version__
 
-    print(f"Hello python3_pip_skeleton {__version__}")
+    print(f"Hello j20_bluesky {__version__}")
 
 Or if it is a commandline tool then you might put some example commands here::
 
-    $ python -m python3_pip_skeleton --version
+    $ python -m j20_bluesky --version
 
 .. |code_ci| image:: https://github.com/DiamondLightSource/python3-pip-skeleton/actions/workflows/code.yml/badge.svg?branch=main
     :target: https://github.com/DiamondLightSource/python3-pip-skeleton/actions/workflows/code.yml
