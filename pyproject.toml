@@ -25,7 +25,9 @@ requires-python = ">=3.10"
 [project.optional-dependencies]
 dev = [
     "black",
+    "bluesky",
     "dls-dodal",
+    "dls_bluesky_core",
     "mypy",
     "pipdeptree",
     "pre-commit",
