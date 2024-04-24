@@ -14,7 +14,7 @@ ROOT = Path(__file__).parent.parent
 
 
 def skeleton_check(check: bool, text: str):
-    if ROOT.name == "python3-pip-skeleton" or str(ROOT) == "/project":
+    if ROOT.name == "i20-1-bluesky" or str(ROOT) == "/project":
         # In the skeleton module the check should fail
         check = not check
         text = f"Skeleton didn't raise: {text}"
@@ -31,7 +31,7 @@ def assert_not_contains_text(path: str, text: str, explanation: str):
 
 # pyproject.toml
 def test_module_summary():
-    summary = metadata("python3-pip-skeleton")["summary"]
+    summary = metadata("i20-1-bluesky")["summary"]
     skeleton_check(
         "One line description of your module" in summary,
         "Please change project.description in ./pyproject.toml "

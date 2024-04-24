@@ -15,7 +15,7 @@ import j20_bluesky
 # -- General configuration ------------------------------------------------
 
 # General information about the project.
-project = "python3-pip-skeleton"
+project = "i20-1-bluesky"
 
 # The full version, including alpha/beta/rc tags.
 release = j20_bluesky.__version__
