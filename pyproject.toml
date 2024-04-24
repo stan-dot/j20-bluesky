@@ -3,7 +3,7 @@ requires = ["setuptools>=64", "setuptools_scm[toml]>=6.2", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "j20_bluesky"
+name = "i20_1_bluesky"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "License :: OSI Approved :: Apache Software License",
@@ -40,10 +40,10 @@ dev = [
 ]
 
 [project.scripts]
-j20_bluesky = "j20_bluesky.__main__:main"
+i20_1_bluesky = "i20_1_bluesky.__main__:main"
 
 [project.urls]
-GitHub = "https://github.com/DiamondLightSource/j20_bluesky"
+GitHub = "https://github.com/DiamondLightSource/i20_1_bluesky"
 
 [[project.authors]] # Further authors may be added by duplicating this section
 email = "stanislaw.malinowski@diamond.ac.uk"
@@ -64,7 +64,7 @@ filterwarnings = "error"
 testpaths = "docs src tests"
 
 [tool.coverage.run]
-data_file = "/tmp/j20_bluesky.coverage"
+data_file = "/tmp/i20_1_bluesky.coverage"
 
 [tool.coverage.paths]
 # Tests are run from installed location, map back to the src directory
@@ -88,7 +88,7 @@ allowlist_externals =
     sphinx-build
     sphinx-autobuild
 commands =
-    pytest: pytest --cov=j20_bluesky --cov-report term --cov-report xml:cov.xml {posargs}
+    pytest: pytest --cov=i20_1_bluesky --cov-report term --cov-report xml:cov.xml {posargs}
     mypy: mypy src tests {posargs}
     pre-commit: pre-commit run --all-files {posargs}
     docs: sphinx-{posargs:build -EW --keep-going} -T docs build/html

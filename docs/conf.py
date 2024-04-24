@@ -10,7 +10,7 @@ from subprocess import check_output
 
 import requests
 
-import j20_bluesky
+import i20_1_bluesky
 
 # -- General configuration ------------------------------------------------
 
@@ -18,7 +18,7 @@ import j20_bluesky
 project = "i20-1-bluesky"
 
 # The full version, including alpha/beta/rc tags.
-release = j20_bluesky.__version__
+release = i20_1_bluesky.__version__
 
 # The short X.Y version.
 if "+" in release:

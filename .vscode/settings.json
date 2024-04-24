@@ -4,7 +4,7 @@
   "python.linting.mypyEnabled": true,
   "python.linting.enabled": true,
   "python.testing.pytestArgs": [
-    "--cov=j20_bluesky",
+    "--cov=i20_1_bluesky",
     "--cov-report",
     "xml:cov.xml"
   ],

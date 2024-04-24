@@ -25,13 +25,13 @@ introductory code here:
 
 .. code-block:: python
 
-    from j20_bluesky import __version__
+    from i20_1_bluesky import __version__
 
-    print(f"Hello j20_bluesky {__version__}")
+    print(f"Hello i20_1_bluesky {__version__}")
 
 Or if it is a commandline tool then you might put some example commands here::
 
-    $ python -m j20_bluesky --version
+    $ python -m i20_1_bluesky --version
 
 .. |code_ci| image:: https://github.com/DiamondLightSource/i20-1-bluesky/actions/workflows/code.yml/badge.svg?branch=main
     :target: https://github.com/DiamondLightSource/i20-1-bluesky/actions/workflows/code.yml
